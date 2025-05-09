@@ -1,0 +1,34 @@
+.footer{
+    padding-top: 200px;
+    background-color: black;
+
+}
+@media (max-width: 567px) {
+    .footer .row {
+        flex-direction: column;
+        text-align: center; /* توسيط النصوص */
+        align-items: center; /* توسيط العناصر */
+    }
+
+    .footer .col-md-6 {
+        padding-top:20px ;
+        width: 100%; /* جعل العناصر تأخذ العرض بالكامل */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px; /* إضافة مسافة بين العناصر */
+    }
+
+    .social-footer {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+        margin-right: 40px;
+        margin-top: -20px;
+    }
+
+    .footer small {
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+div ul .nav-item {
+    background-color: #9928DA;    
+}
+.nav-link{
+    color: white;
+}
+
+.nav-pills .nav-link.active{
+    background-color: white;
+    color:#9928DA;
+    border: 2px solid #9928DA;;
+    font-weight: bold;
+    transform: scale(1.2);
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.nav-link:hover{
+    color: white;
+}
+@media (max-width : 567px){
+    .nav-pills .nav-link{
+        font-size: 10px;
+    }
+    .nav-pills .nav-link.active{
+        font-size: 13px;
+    }
+}

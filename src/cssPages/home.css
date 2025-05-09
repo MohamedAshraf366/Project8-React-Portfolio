@@ -1,0 +1,74 @@
+.home{
+    height: 90vh;
+    background-image:url("../images/home.jpg")    ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .card{
+    background-color: transparent;
+    padding-top: 60px;
+    color: white;
+}
+.home .card .welcome{
+    border: 2px solid white;
+    width: 60%;
+    padding: 10px;
+    background: linear-gradient(45deg, #16164C, #3B337E,#325EE9, #A027DE, #CE40B4);
+    margin-bottom: 20px;
+}
+.home Button a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+.home Button {
+    background-color: #9928DA;
+    border: 0px;
+}
+.home Button:hover a{
+    background-color: transparent;
+    font-size: 24px;
+    transition: 0.5s;
+    color: #9928DA;
+}
+.home Button:hover{
+    background-color: white;
+}
+
+.home .homeImg{
+    margin-top: 60px;
+}
+.home .homeImg img{
+    animation: homeImg 5s ease-in-out 0s infinite ;
+}
+
+@keyframes homeImg {
+    0% {
+        transform: translateY(0); 
+    }
+    
+    50% {
+        transform: translateY(120px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width : 567px){
+    .home{
+        height: 110vh;
+    }
+.homeImg{
+    display: flex;
+    justify-content: center;
+}
+.home .card .welcome{
+    height: auto;
+    width: 100%;
+    
+    
+}
+}

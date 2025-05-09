@@ -1,0 +1,15 @@
+@import 'aos/dist/aos.css';
+.scrolling-pic .card {
+    overflow: hidden;
+    height: 300px;  
+  }
+  
+  .scrolling-pic .card-img {
+    height: 700px;
+    transition: transform 2s ease-in-out;
+  }
+  
+  .scrolling-pic .card:hover .card-img {
+    transform: translateY(-400px);
+  }
+  

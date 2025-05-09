@@ -1,0 +1,100 @@
+.connect{
+    height: 107vh;
+    background: linear-gradient(-145deg, #16164C, #3B337E,#325EE9, #A027DE, #CE40B4);
+}
+.connect img {
+    max-width: 100%;
+    max-height: 100%;
+    transform: rotateX(20deg);
+  }
+label{
+    color: black;
+}
+.connect Button a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+.connect Button {
+    background-color: #9928DA;
+    border: 0px;
+}
+.connect Button:hover a{
+    background-color: transparent;
+    transition: 0.5s;
+    color: #9928DA;
+}
+.connect Button:hover{
+    background-color: white;
+}
+.connect input, .connect textarea{
+    background-color: #ebb3f7;
+}.connectEmail {
+    background-color: white;
+    height: 39vh;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 4px solid #9928DA;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 25px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    
+}
+
+.connectEmail h1 {
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+}
+
+.connectEmail .email-input {
+    height: 70px;
+    background-color: white;
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 16px;
+    outline: none;
+    color: #5a5a5a;
+    border-radius: 20px 0 0 20px;
+}
+
+.input-group .submit-btn { 
+    height: 70px;
+    background: linear-gradient(to right, #b14cff, #e041f0);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0 20px 20px 0;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+@media (max-width : 567px){
+    .connect{
+        height: 157vh
+    }
+    .connect .connect-form{
+        margin-top: 20px;
+    }
+    .connect .connect-form .connectBtn{
+        display: flex;
+        justify-content: center;
+    }
+    .connectEmail {
+        height: 45vh;
+    }
+    .connectEmail p{
+    font-size: 20px !important;
+    }
+    .input-group .submit-btn, .connectEmail .email-input { 
+        height: 50px;
+        font-size: 10px;
+    }
+}

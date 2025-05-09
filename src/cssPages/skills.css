@@ -1,0 +1,24 @@
+.skills{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(-145deg, #16164C, #3B337E,#325EE9, #A027DE, #CE40B4);
+}
+
+.skills .outerCircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.skills .innerCircle{
+    font-size: 24px;
+    font-weight: bold
+}
+@media (max-width : 567px){
+    .skills{
+        height: 60vh;
+    }
+}

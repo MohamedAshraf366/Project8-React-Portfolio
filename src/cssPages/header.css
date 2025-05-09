@@ -1,0 +1,17 @@
+@media (max-width : 567px){
+    .navBar{
+        padding-top: 20px;
+        line-height: 8px;
+        padding-left: 10px;
+    
+    }
+    .navbar-collapse.show{
+        padding-right: 20px;
+    }
+    .socialMedia{
+        display: flex;
+        flex-flow: row;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
