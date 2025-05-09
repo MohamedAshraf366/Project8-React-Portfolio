@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/Project8-React-Portfolio/static/css/main.04f8f7a1.css",
-    "main.js": "/Project8-React-Portfolio/static/js/main.a08d7ce2.js",
-    "static/js/488.086a1777.chunk.js": "/Project8-React-Portfolio/static/js/488.086a1777.chunk.js",
+    "main.css": "/Project8-React-Portfolio/static/css/main.02314c68.css",
+    "main.js": "/Project8-React-Portfolio/static/js/main.82750a4e.js",
+    "static/js/488.3d34c60c.chunk.js": "/Project8-React-Portfolio/static/js/488.3d34c60c.chunk.js",
+    "static/media/projrct7.png": "/Project8-React-Portfolio/static/media/projrct7.115c3294c958ef377069.png",
+    "static/media/projrct15.jpeg": "/Project8-React-Portfolio/static/media/projrct15.5a295e6a4f9bd4074205.jpeg",
+    "static/media/projrct4.png": "/Project8-React-Portfolio/static/media/projrct4.a66c86a2627691b1a462.png",
     "static/media/projrct9.png": "/Project8-React-Portfolio/static/media/projrct9.4a1d3ee7e3f3f7f70cb0.png",
-    "static/media/projrct6.png": "/Project8-React-Portfolio/static/media/projrct6.c1c5453f2a405eeab272.png",
-    "static/media/projrct4.png": "/Project8-React-Portfolio/static/media/projrct4.9aa1cfc03e49eb449db0.png",
-    "static/media/projrct8.png": "/Project8-React-Portfolio/static/media/projrct8.181078d65c83581461d9.png",
+    "static/media/projrct5.png": "/Project8-React-Portfolio/static/media/projrct5.5fc56b453dc1475a86f1.png",
     "static/media/projrct13.png": "/Project8-React-Portfolio/static/media/projrct13.652cde86e4c9962cc664.png",
-    "static/media/projrct3.png": "/Project8-React-Portfolio/static/media/projrct3.c9226c8e1dc1cae738ee.png",
+    "static/media/projrct1.png": "/Project8-React-Portfolio/static/media/projrct1.89e5760a504a17af3bc3.png",
+    "static/media/projrct14.jpeg": "/Project8-React-Portfolio/static/media/projrct14.6d9c82db0405ff5c84a7.jpeg",
+    "static/media/projrct8.png": "/Project8-React-Portfolio/static/media/projrct8.220e353e737edbbe561f.png",
     "static/media/projrct12.png": "/Project8-React-Portfolio/static/media/projrct12.b3ca38ee7490a246594b.png",
     "static/media/fa-solid-900.ttf": "/Project8-React-Portfolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
-    "static/media/projrct2.png": "/Project8-React-Portfolio/static/media/projrct2.5f2d60cf28dc379a64cc.png",
-    "static/media/projrct1.png": "/Project8-React-Portfolio/static/media/projrct1.4454251b106b39707624.png",
-    "static/media/projrct5.png": "/Project8-React-Portfolio/static/media/projrct5.d3157a8eceebe9693c4c.png",
-    "static/media/projrct7.png": "/Project8-React-Portfolio/static/media/projrct7.91ef5bf2e4ef663b29e9.png",
+    "static/media/projrct16.jpeg": "/Project8-React-Portfolio/static/media/projrct16.1641553d72604f039ee3.jpeg",
+    "static/media/projrct6.png": "/Project8-React-Portfolio/static/media/projrct6.d1ba0f7b752cb3fb5077.png",
+    "static/media/projrct3.png": "/Project8-React-Portfolio/static/media/projrct3.e228e004a6f5f9d5cc5d.png",
     "static/media/fa-brands-400.ttf": "/Project8-React-Portfolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fa-solid-900.woff2": "/Project8-React-Portfolio/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/projrct2.png": "/Project8-React-Portfolio/static/media/projrct2.ae6d2fe9df55dd378dc5.png",
     "static/media/fa-brands-400.woff2": "/Project8-React-Portfolio/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/fa-regular-400.ttf": "/Project8-React-Portfolio/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/home.jpg": "/Project8-React-Portfolio/static/media/home.f55f78ed956023350726.jpg",
@@ -30,12 +33,12 @@
     "static/media/slick.ttf": "/Project8-React-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Project8-React-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Project8-React-Portfolio/index.html",
-    "main.04f8f7a1.css.map": "/Project8-React-Portfolio/static/css/main.04f8f7a1.css.map",
-    "main.a08d7ce2.js.map": "/Project8-React-Portfolio/static/js/main.a08d7ce2.js.map",
-    "488.086a1777.chunk.js.map": "/Project8-React-Portfolio/static/js/488.086a1777.chunk.js.map"
+    "main.02314c68.css.map": "/Project8-React-Portfolio/static/css/main.02314c68.css.map",
+    "main.82750a4e.js.map": "/Project8-React-Portfolio/static/js/main.82750a4e.js.map",
+    "488.3d34c60c.chunk.js.map": "/Project8-React-Portfolio/static/js/488.3d34c60c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04f8f7a1.css",
-    "static/js/main.a08d7ce2.js"
+    "static/css/main.02314c68.css",
+    "static/js/main.82750a4e.js"
   ]
 }
