@@ -129,8 +129,9 @@ let Projects = ()=>{
                 <div className="scrolling-pic tab-pane fade show active" style={{}} id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                 <div className="row g-5 mt-2">
                     {dataBoot.map((d)=>(
-                        <div className="col-md-4">
-                        <div  data-aos="fade-right" className="card text-bg-dark">
+                        <div data-aos="fade-right"  data-aos-offset="300"
+                            data-aos-easing="ease-in-sine" className="col-md-4">
+                        <div   className="card text-bg-dark">
                             <NavLink to={d.url}>
                             <img src={d.img} className="card-img" alt={d.projectNo}  />
                             </NavLink>

@@ -16,7 +16,7 @@ function App() {
     <Home />
     <Skills />
     <Projects />
-    <Connect />
+    {/* <Connect /> */}
     <Footer />
     <Routes>
       

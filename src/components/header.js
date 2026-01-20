@@ -8,6 +8,10 @@ import "../cssPages/header.css"
 
 
 const Header = () => {
+      const whatsappNumber = '201111166832'; // رقمك مع كود الدولة
+const message = 'Hello, i need to contact with you';
+
+const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
@@ -20,7 +24,7 @@ const Header = () => {
             className="rounded-circle me-3"
           />
           <span className="fs-2 fw-bold text-light">
-            <Nav.Link href="/home">LOGO</Nav.Link>
+            <Nav.Link href="/home">Mohamed Ashraf</Nav.Link>
           </span>
         </Navbar.Brand>
 
@@ -36,7 +40,7 @@ const Header = () => {
 
           {/* Social Media Icons */}
           <Nav className="ms-auto socialMedia gap-3">
-            <Nav.Link href="https://facebook.com" target="_blank">
+            <Nav.Link href="https://www.facebook.com/mohamed.ashraf.791060/" target="_blank">
               <span
                 className="d-inline-flex align-items-center justify-content-center rounded-circle bg-white text-dark border border-white p-2"
                 style={{ width: "40px", height: "40px" }}
@@ -45,7 +49,7 @@ const Header = () => {
               </span>
             </Nav.Link>
 
-            <Nav.Link href="https://linkedin.com" target="_blank">
+            <Nav.Link href="https://www.linkedin.com/in/mohamed-ashraf-497a13170" target="_blank">
               <span
                 className="d-inline-flex align-items-center justify-content-center rounded-circle bg-white text-dark border border-white p-2"
                 style={{ width: "40px", height: "40px" }}
@@ -54,11 +58,11 @@ const Header = () => {
               </span>
             </Nav.Link>
 
-            <Nav.Link href="https://instagram.com" target="_blank">
+            <Nav.Link  target="_blank" onClick={() => window.open(whatsappUrl, '_blank')}>
               <span className="d-inline-flex align-items-center justify-content-center rounded-circle bg-white text-dark border border-white p-2"
                 style={{ width: "40px", height: "40px" }}
               >
-                <i className="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
               </span>
             </Nav.Link>
           </Nav>
