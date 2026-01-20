@@ -49,20 +49,28 @@ function Skills() {
 
   // بيانات المهارات
   const data = [
-    { id: 1, percent: 90, field: "Communication Engineer" },
-    { id: 2, percent: 80, field: "FrontEnd" },
-    { id: 3, percent: 20, field: "BackEnd" },
-    { id: 4, percent: 70, field: "Transmission Fiber" },
-    { id: 5, percent: 70, field: "4G Optimization" },
-    { id: 6, percent: 40, field: "5G Optimization" }
+    { id: 1,  field: 'https://img.icons8.com/?size=100&id=20909&format=png&color=000000' },
+    { id: 2,  field: "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" },
+    { id: 3,  field: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000" },
+    { id: 4,  field: "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" },
+    { id: 5,  field: "https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000" },
+    { id: 7,  field: "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" },
+    { id: 8,  field: "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000" },
+    { id: 9,  field: "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000" },
+    { id: 15,  field: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" },
+    { id: 16,  field: "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000000" },
+    { id: 17,  field: "https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000" },
+    { id: 18,  field: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000" },
+    { id: 19,  field: "https://cdn.dribbble.com/userupload/41930880/file/original-633d9b239c12bbb0788b9faf25058c54.png" },
+
   ];
 
   // إعدادات السلايدر
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToShow: 8,
+    slidesToScroll: 8,
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
@@ -70,15 +78,15 @@ function Skills() {
     responsive: [
       {
         breakpoint: 1024,
-        settings: { slidesToShow: 2, slidesToScroll: 1, infinite: true, dots: true }
+        settings: { slidesToShow: 2, slidesToScroll: 1, infinite: true, dots: false }
       },
       {
         breakpoint: 768,
-        settings: { slidesToShow: 1, slidesToScroll: 1, initialSlide: 1 }
+        settings: { slidesToShow: 2, slidesToScroll: 1, initialSlide: 1 }
       },
       {
         breakpoint: 480,
-        settings: { slidesToShow: 1, slidesToScroll: 1 }
+        settings: { slidesToShow: 2, slidesToScroll: 2 }
       }
     ]
   };
@@ -93,16 +101,8 @@ function Skills() {
             <div key={d.id}>
               <div className="col-md-4">
                 <div className="card-body">
-                  <div
-                    className="outerCircle"
-                    style={{
-                      background: `conic-gradient(rgb(195, 121, 238) ${progress[d.id] * 3.6}deg, rgb(133, 160, 240) 0deg)`
-                    }}
-                  >
-                    <div className="innerCircle">{progress[d.id] || 0}%</div>
-                  </div>
-                  <div className="card-text text-center mt-2">
-                    <h4 className="ms-3 mt-3 mb-5 fw-bold text-white">{d.field}</h4>
+                  <div className="card-text text-center mt-4">
+                    <img src={d.field} className="" style={{width:'90px'}} />
                   </div>
                 </div>
               </div>
